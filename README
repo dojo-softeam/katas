@@ -1,4 +1,4 @@
-Edit test.rb, it is already setup to run unit tests based on Test::Unit 
-and possibly add red/green to the console output if the gem is installed
+kata ready environment for javascript testing. 
 
-Use ruby test.rb to run
+Edit test.js and open index.html in a javascript enabled browser to start.
+the truth test is already written and should pass.
