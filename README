@@ -1,0 +1,21 @@
+rules
+
+1 write exactly ONE failing test
+2 make the test from (1) pass by first writing implementation code IN THE TEST
+3 create a new implementation method/function by:
+3.1 doing extract method on implementation code created as per (2), or
+3.2 moving implementation code as per (2) into an existing implementation method
+4 only ever create new methods IN THE TEST CLASS
+5 only ever create implementation classes to provide a destination for extracting a method created as per (4).
+6 populate implementation classes by doing move method from a test class into them
+7 refactor as required
+8 go to (1)
+
+
+
+a game is over when all fields are taken
+a game is over when all fields in a column are taken by a player
+a game is over when all fields in a row are taken by a player
+a game is over when all fields in a diagonal are taken by a player
+a player can take a field if not already taken
+players take turns taking fields until the game is over
